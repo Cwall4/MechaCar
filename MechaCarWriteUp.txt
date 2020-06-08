@@ -1,0 +1,29 @@
+MPG Regression:
+
+The multiple linear regression for the MPG of MechaCar prototypes.
+For the intercept, coefficient for vehicle length, and ground clearance the null hypothesis can be rejected with 99.9% significance.
+The vehicle weight shows statistical significance at a 90% cutoff. 
+
+This linear model does a decent job of estimating MPG of MechaCar prototypes.
+Evidence of this is that the adjusted R-squared is 0.68 and the F-statistic is 22.
+Also, the residuals look roughly normally distributed, which supports the use of linear regression.
+
+Suspension Coil Summary:
+
+The suspension coil PSI variable has a mean of 1498.8, a median of 1500, a variance of 62.3, and a standard deviation of 7.9.
+Based on the mean and median, there is slight left skewness.
+The variance of 62.3 is less than the dictated threshold of 100 PSI, therefore meeting the design specifications.
+
+t-Test:
+
+Based on the one-sample t-test of the sample mean of 1498.8 compared to the population mean of 1500, we fail to reject the null hypothesis that the sample is from a population with a mean of 1500 at 95% statistical significance.
+In other words, we can't rule out that the sample PSI measures didn't come from a population with a mean of 1500.
+
+Design Your Own Study:
+
+We can expect fuel efficiency to be a selling point for consumers.
+To test our hypothesis that MechaCar outperforms the competition in this department, we could use a two-sample t-test.
+Our null hypothesis could be that MechaCar's mean MPG and competitors' mean MPG are equal.
+Therefore, the alternative hypothesis would be that MechaCar's mean MPG is not equal to competitors'.
+We could compare the sample of MechaCar's MPG (which we already have) with an unbiased sample of our competitors' MPG measures (which we would need to collect).
+Note that any statistically significant rejection of the null hypothesis would be of interest, but we would only advertise our results if MechaCar's mean MPG appears lower than competitors', not higher.
